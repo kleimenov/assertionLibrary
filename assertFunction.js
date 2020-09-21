@@ -14,7 +14,7 @@ const multOfnumbers = function(x, y) {
 //define handful of variables
 let numberOne = 6;
 let numberTwo = 6;
-let randomValue = 6;
+let randomValue = 6 ;
 
 //test our code
 console.assert(sumOfNumbers(numberOne, numberTwo) === sumOfNumbers(numberOne, numberTwo));
