@@ -11,5 +11,9 @@ const lastElements = function(arr){
 }
 
 assertFunc(lastElements(array), array);
+assertFunc(array.length, 3);
 
+console.log(friends);
+let friends = "jjjj";
+//console.log(friends)
 
