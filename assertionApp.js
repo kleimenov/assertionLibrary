@@ -1,5 +1,5 @@
 //Write assertion function assertFunc()
-
+/*
 const assertFunc = function(actualValue, expectedValue){
     return actualValue === expectedValue ? console.log("Good job") : console.log("Bad you");
 };
@@ -16,6 +16,10 @@ const assertFunc = function(actualValue, expectedValue) {
     const assertionFailed = "Assertion failed: " + actualValue + " !== " + expectedValue;
     return actualValue === expectedValue ? console.log(assertionPassed) : console.log(assertionFailed);
 }
+*/
 
-assertFunc('909', '909')
+const assertFunc = function(actualValue, expectedValue){
+    return actualValue === expectedValue ? console.log(`Assertion passed: ${actualValue}  === ${expectedValue}`) : console.log(`Assertion failed: ${actualValue}  !== ${expectedValue}`);
+}
+assertFunc('909', '9091')
 
