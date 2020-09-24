@@ -14,7 +14,9 @@ const arrayEqual = function(actualValue, expectedValue){
 }
 
 const assertArraysEq = function(firstArray, secondArray){
-    return arrayEqual(firstArray, secondArray) ? console.log(`Assertion passed: ${firstArray}  === ${secondArray}`) : console.log(`Assertion failed: ${firstArray}  !== ${secondArray}`);
+    let successMessage = `Assertion passed: ${firstArray}  === ${secondArray}`;
+    let failedMessage = `Assertion failed: ${firstArray}  !== ${secondArray}`;
+    return arrayEqual(firstArray, secondArray) ? console.log(successMessage) : console.log(failedMessage);
 }
 
 let arrNewI = ['1', '2', '3'];
