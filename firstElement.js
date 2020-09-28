@@ -9,4 +9,4 @@ const assertFunc = function(actualValue, expectedValue){
 }
 */
 const assertFunc = require(`./assertionApp`)
-assertFunc(main(array), 5);
+//assertFunc(main(array), 5);

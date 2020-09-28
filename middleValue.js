@@ -1,16 +1,5 @@
-const arrayEqual = function(actualValue, expectedValue){
-    if(actualValue.length === expectedValue.length){
-        for (let index = 0; index < actualValue.length; index++){
-            if (actualValue[index] !== expectedValue[index]) {
-                return false;
-            }
-        }
-        return true;
-    }
-    else {
-        return false;
-    }
-}
+
+const arrayEqual = require('./arrayEquality');
 
 const assertArraysEq = function(firstArray, secondArray){
     let successMessage = `Assertion passed: ${firstArray}  === ${secondArray}`;
@@ -40,6 +29,6 @@ const middleElement = function(arr) {
 
 }
 
-//console.log(middleElement([2,3]))
+console.log(middleElement([2,3]))
 
 assertArraysEq(middleElement([2,3,4,5]), [3,4])

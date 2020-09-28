@@ -8,7 +8,7 @@ const lastElements = function(arr){
 }
 
 
-assertFunc(lastElements(array), array);
-assertFunc(array.length, 3);
+//assertFunc(lastElements(array), array);
+//assertFunc(array.length, 3);
 
 
