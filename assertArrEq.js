@@ -12,6 +12,6 @@ let arrNewI = ['1', '2', '3'];
 let arrNewII = ['1', '2'];
 
 
-assertArraysEq(arrNewI, arrNewII);
+//assertArraysEq(arrNewI, arrNewII);
 
 module.exports = assertArraysEq;
