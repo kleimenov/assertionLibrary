@@ -1,6 +1,6 @@
 
-const arrayEqual = require('./arrayEquality');
-const assertArraysEq = require('./assertArrEq');
+const arrayEqual = require('./arrayEqual');
+const assertArraysEq = require('./assertArraysEq');
 
 const takeUntil = function(arr, callback) {
     let newArray = [];
@@ -16,4 +16,4 @@ const takeUntil = function(arr, callback) {
     return newArray;
 }
 
-module.exports = {takeUntil};
+module.exports = takeUntil;

@@ -1,4 +1,4 @@
-const assertFunc = require('./assertionApp');
+const assertFunc = require('./assertFunc');
 
 const meowsFinder = function(object, callback) {
     for (let key in object) {
@@ -10,4 +10,4 @@ const meowsFinder = function(object, callback) {
     }
 }
 
-module.exports = {meowsFinder};
+module.exports = meowsFinder;

@@ -1,4 +1,4 @@
-const assertFunc = require('./assertionApp');
+const assertFunc = require('./assertFunc');
 
 const lettersCount = function(text) {
     let numberOfletters = {};
@@ -8,4 +8,4 @@ const lettersCount = function(text) {
     return numberOfletters;
 }
 
-module.exports = {lettersCount};
+module.exports = lettersCount;

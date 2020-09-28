@@ -6,5 +6,5 @@ const assertFunc = function(actualValue, expectedValue){
 }
 
 
-module.exports = {assertFunc};
+module.exports = assertFunc;
 

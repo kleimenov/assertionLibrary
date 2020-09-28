@@ -14,5 +14,5 @@ const arrayEqual = function(actualValue, expectedValue){
 }
 
 
-module.exports = {arrayEqual};
+module.exports = arrayEqual;
 

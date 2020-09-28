@@ -1,6 +1,6 @@
 # assertionlibrary
 
-A mini clone of the [Lodash](https://lodash.com) library.
+A small version of the [Lodash](https://lodash.com) library.
 
 ## Purpose
 

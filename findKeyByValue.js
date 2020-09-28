@@ -1,4 +1,4 @@
-const assertFunc = require('./assertionApp');
+const assertFunc = require('./assertFunc');
 
 
 const findKeyByValue = function(object, value) {
@@ -9,4 +9,4 @@ const findKeyByValue = function(object, value) {
     }
 }
 
-module.exports = {findKeyByValue};
+module.exports = findKeyByValue;

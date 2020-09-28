@@ -1,8 +1,8 @@
 
-const main = function(arr) {
+const firstElement = function(arr) {
     return arr[0];
 }
 
-const assertFunc = require(`./assertionApp`)
+const assertFunc = require(`./assertFunc`)
 
-module.exports = {main};
+module.exports = firstElement;

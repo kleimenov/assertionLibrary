@@ -1,5 +1,5 @@
-const arrayEqual = require('./arrayEquality');
-const assertArraysEq = require('./assertArrEq');
+const arrayEqual = require('./arrayEqual');
+const assertArraysEq = require('./assertArraysEq');
 
 const unwantedElement = function(array, valuesToDelete) {
     for (let index = 0; index < array.length; index++) {
@@ -12,4 +12,4 @@ const unwantedElement = function(array, valuesToDelete) {
     return array;
 }
 
-module.exports = {unwantedElement};
+module.exports = unwantedElement;

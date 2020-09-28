@@ -1,6 +1,6 @@
 
-const arrayEqual = require('./arrayEquality');
-const assertArraysEq = require('./assertArrEq');
+const arrayEqual = require('./arrayEqual');
+const assertArraysEq = require('./assertArraysEq');
 
 const middleElement = function(arr) {
     let tmpArr = []
@@ -22,4 +22,4 @@ const middleElement = function(arr) {
     }
 
 }
-module.exports = {middleElement};
+module.exports = middleElement;

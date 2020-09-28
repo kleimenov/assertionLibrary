@@ -1,14 +1,5 @@
-const assertObjectEq = function(firstObject, secondObject){
 
-    //function take two values, compare this values and 
-    //return true if values are equal otherwise return false
-    
-    let successMessage = `Assertion passed: ${firstObject}  === ${secondObject}`;
-    let failedMessage = `Assertion failed: ${firstObject}  !== ${secondObject}`;
-    return eqObjects(firstObject, secondObject) ? console.log(successMessage) : console.log(failedMessage);
-}
-
-const arrayEqual = require('./arrayEquality');
+const arrayEqual = require('./arrayEqual');
 
 const eqObjects = function(objectI, objectII) {
 
@@ -33,5 +24,5 @@ const eqObjects = function(objectI, objectII) {
     return true;
 }
 
-module.exports = {assertObjectEq, eqObjects};
+module.exports = eqObjects;
 

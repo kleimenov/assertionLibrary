@@ -1,6 +1,6 @@
 
-const arrayEqual = require('./arrayEquality');
-const assertArraysEq = require('./assertArrEq');
+const arrayEqual = require('./arrayEqual');
+const assertArraysEq = require('./assertArraysEq');
 
 const lettersIndexes = function(sentence) {
     const result = {};
@@ -14,4 +14,4 @@ const lettersIndexes = function(sentence) {
    
 }
 
-module.exports = {lettersIndexes};
+module.exports = lettersIndexes;
