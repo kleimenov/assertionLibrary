@@ -22,3 +22,4 @@ const middleElement = function(arr) {
     }
 
 }
+module.exports = require('./middleElement')
