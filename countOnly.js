@@ -1,5 +1,5 @@
 
-const assertFunc = require('./assertionApp')
+//const assertFunc = require('./assertionApp')
 
 const countsOnly = function(allItems, itemsToCount) {
     let itemsStats = {};
