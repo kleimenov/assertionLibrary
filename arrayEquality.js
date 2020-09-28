@@ -1,7 +1,3 @@
-let arrayActual = [1,2,3];
-let arrayEqualToActual = [1,2,3];
-let arrNewI = ['1', '2', '3'];
-let arrNewII = ['1', '2', 3];
 
 const arrayEqual = function(actualValue, expectedValue){
     if(actualValue.length === expectedValue.length){
@@ -17,7 +13,6 @@ const arrayEqual = function(actualValue, expectedValue){
     }
 }
 
-console.log(arrayEqual(arrNewI, arrNewII));
 
-
+module.exports = arrayEqual;
 
