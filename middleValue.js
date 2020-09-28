@@ -1,13 +1,7 @@
 
 const arrayEqual = require('./arrayEquality');
 const assertArraysEq = require('./assertArrEq');
-/*
-const assertArraysEq = function(firstArray, secondArray){
-    let successMessage = `Assertion passed: ${firstArray}  === ${secondArray}`;
-    let failedMessage = `Assertion failed: ${firstArray}  !== ${secondArray}`;
-    return arrayEqual(firstArray, secondArray) ? console.log(successMessage) : console.log(failedMessage);
-}
-*/
+
 
 const middleElement = function(arr) {
     let tmpArr = []
@@ -29,7 +23,3 @@ const middleElement = function(arr) {
     }
 
 }
-
-console.log(middleElement([2,3]))
-
-assertArraysEq(middleElement([2,3,4,5]), [3,4])

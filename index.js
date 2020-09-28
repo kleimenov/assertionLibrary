@@ -5,7 +5,7 @@ const lastElements = require('./lastElements');
 const middleValue = require('./middleValue');
 
 module.exports = {
-    firstElement: firstElement,
-    lastElements: lastElements,
-    middleValue: middleValue,
+    firstElement,
+    lastElements,
+    middleValue,
 };

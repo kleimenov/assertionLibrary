@@ -8,23 +8,7 @@ const assertObjectEq = function(firstObject, secondObject){
     return eqObjects(firstObject, secondObject) ? console.log(successMessage) : console.log(failedMessage);
 }
 
-const arrayEqual = function(actualValue, expectedValue){
-
-    //function take two arrays, compare arrays and 
-    //return true if arrays are equal otherwise return false
-    
-    if(actualValue.length === expectedValue.length){
-        for (let index = 0; index < actualValue.length; index++){
-            if (actualValue[index] !== expectedValue[index]) {
-                return false;
-            }
-        }
-        return true;
-    }
-    else {
-        return false;
-    }
-}
+const arrayEqual = require('./arrayEquality');
 
 const eqObjects = function(objectI, objectII) {
 
@@ -49,9 +33,3 @@ const eqObjects = function(objectI, objectII) {
     return true;
 }
 
-
-const ab = {a:1, b:2, c:3, f: ['Hyi', "zaebis", 'poHyi']};
-const ba = {b:2, a:1, c:3, f: ['Hyi', "zaebis", 'poHyi']};
-
-assertObjectEq(ab, ba)
-console.log(eqObjects(ab, ba))

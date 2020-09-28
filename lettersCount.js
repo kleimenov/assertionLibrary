@@ -1,8 +1,4 @@
-const assertFunc = function(actualValue, expectedValue){
-    let successMessage = `Assertion passed: ${actualValue}  === ${expectedValue}`;
-    let failedMessage = `Assertion failed: ${actualValue}  !== ${expectedValue}`;
-    return actualValue === expectedValue ? console.log(successMessage) : console.log(failedMessage);
-}
+const assertFunc = require('./assertionApp');
 
 const lettersCount = function(text) {
     let numberOfletters = {};
@@ -12,7 +8,4 @@ const lettersCount = function(text) {
     return numberOfletters;
 }
 
-const resultII = lettersCount('LHL');
-
-assertFunc(resultII.L, 2)
 
