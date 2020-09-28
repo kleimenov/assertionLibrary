@@ -24,5 +24,7 @@ const assertFunc = function(actualValue, expectedValue){
     return actualValue === expectedValue ? console.log(successMessage) : console.log(failedMessage);
 }
 
-assertFunc('909', '909')
+//assertFunc('909', '909')
+
+module.exports = assertFunc;
 
