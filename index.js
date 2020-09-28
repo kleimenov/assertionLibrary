@@ -12,7 +12,7 @@ const eqObjects = require('./eqObject');
 const findKeyByValue = require('./findKeyByValue');
 const meowsFinder = require('./findKeys');
 const main = require('./firstElement');
-const mapFunction = require('./mapFunction');
+const mapFunction = require('./map');
 
 
 module.exports = {
