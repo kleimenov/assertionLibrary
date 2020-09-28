@@ -2,7 +2,7 @@
 
 
 const lastElements = require('./lastElements');
-const middleValue = require('./middleValue');
+const middleElement = require('./middleValue');
 const arrayEqual = require('./arrayEquality');
 const assertArrEq = require('./assertArrEq');
 const assertFunc = require('./assertionApp');
@@ -18,7 +18,7 @@ const mapFunction = require('./mapFunction');
 module.exports = {
     
     lastElements,
-    middleValue,
+    middleElement,
     arrayEqual,
     assertArrEq,
     assertFunc,
