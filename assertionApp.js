@@ -24,5 +24,5 @@ const assertFunc = function(actualValue, expectedValue){
     return actualValue === expectedValue ? console.log(successMessage) : console.log(failedMessage);
 }
 
-assertFunc('909', '9091')
+assertFunc('909', '909')
 
