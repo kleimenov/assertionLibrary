@@ -12,5 +12,7 @@ const countsOnly = function(allItems, itemsToCount) {
     return itemsStats;
 }
 
+module.exports ={countsOnly};
+
 
 

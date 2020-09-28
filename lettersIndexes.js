@@ -13,3 +13,5 @@ const lettersIndexes = function(sentence) {
     return result;
    
 }
+
+module.exports = {lettersIndexes};

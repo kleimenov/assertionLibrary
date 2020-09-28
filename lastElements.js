@@ -8,3 +8,4 @@ const lastElements = function(arr){
 }
 
 
+module.exports = {lastElements};

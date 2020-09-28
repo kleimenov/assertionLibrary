@@ -4,3 +4,5 @@ const main = function(arr) {
 }
 
 const assertFunc = require(`./assertionApp`)
+
+module.exports = {main};

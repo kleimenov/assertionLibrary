@@ -6,3 +6,5 @@ const mapFunction = function(arr, callback) {
     }
     return newArray;
 }
+
+module.exports = {mapFunction};

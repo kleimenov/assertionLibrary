@@ -8,4 +8,4 @@ const lettersCount = function(text) {
     return numberOfletters;
 }
 
-
+module.exports = {lettersCount};

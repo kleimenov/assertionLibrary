@@ -1,0 +1,19 @@
+{
+  "name": "assertionlibrary",
+  "version": "1.0.0",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleimenov/assertionLibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleimenov/assertionLibrary/issues"
+  },
+  "homepage": "https://github.com/kleimenov/assertionLibrary#readme"
+}

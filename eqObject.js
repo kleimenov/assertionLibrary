@@ -33,3 +33,5 @@ const eqObjects = function(objectI, objectII) {
     return true;
 }
 
+module.exports = {assertObjectEq, eqObjects};
+

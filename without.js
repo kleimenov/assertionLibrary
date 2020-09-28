@@ -11,3 +11,5 @@ const unwantedElement = function(array, valuesToDelete) {
     }
     return array;
 }
+
+module.exports = {unwantedElement};

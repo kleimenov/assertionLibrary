@@ -9,3 +9,5 @@ const meowsFinder = function(object, callback) {
         }
     }
 }
+
+module.exports = {meowsFinder};

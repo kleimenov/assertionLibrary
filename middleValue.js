@@ -2,7 +2,6 @@
 const arrayEqual = require('./arrayEquality');
 const assertArraysEq = require('./assertArrEq');
 
-
 const middleElement = function(arr) {
     let tmpArr = []
     let length = arr.length;
